@@ -15,7 +15,11 @@ org_settings:
   org_info:
    
     org_name: test1
-
+webhook_settings:
+    activeities_webhook:
+      enable_activities_webhook:  true
+      destination_url:  < https://webhook.site/c9ea12d5-d08b-4fef-b782-690be8ed5d76  >
+      
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.
